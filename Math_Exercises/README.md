@@ -4,24 +4,24 @@
 
 You are given an array `arr` having `n` integers. Find the number of triplets `(i, j, k)` such that `arr[i] + arr[j] + arr[k]` is a prime number.
 
-### Input Format
+## Input Format
 
 The first line of input contains an integer `t` denoting the number of test cases. The description of each test case is as follows:
 
 - The first line of each test case contains an integer `n`.
 - The second line of each test case contains `n` integers, the elements of array `arr`.
 
-### Output Format
+## Output Format
 
 For each test case, print the number of triplets that satisfy the given conditions in a separate line.
 
-### Constraints
+## Constraints
 
 - 1 <= t <= 100
 - 1 <= n <= 100
 - 1 <= arr[i] <= 1000
 
-### Sample Input
+## Sample Input
 
 2
 4
@@ -30,13 +30,12 @@ For each test case, print the number of triplets that satisfy the given conditio
 1 1 4 5
 
 
-### Sample Output
-
+## Sample Output
 0
 1
 
-
-### Explanation
+## Explanation
 
 In the first test case, there are no triplets that satisfy the given conditions.
-In the second test case, the triplets will be `(0, 1, 2)` as `1 + 1 + 4 = 6`, which is a prime number.
+
+In the second test case, the triplet `(1, 1, 4)` satisfies the condition because `1 + 1 + 4 = 6`, which is a prime number.
