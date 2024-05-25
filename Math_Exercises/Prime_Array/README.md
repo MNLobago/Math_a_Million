@@ -41,4 +41,4 @@ For each test case, print the number of triplets that satisfy the given conditio
 
 In the first test case, there are no triplets that satisfy the given conditions.
 
-In the second test case, the triplet `(1, 1, 4)` satisfies the condition because `1 + 1 + 4 = 6`, which is a prime number.
+In the second test case, the triplet `(1, 1, 5)` satisfies the condition because `1 + 1 + 5 = 7`, which is a prime number.
