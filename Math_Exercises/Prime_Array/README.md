@@ -24,8 +24,12 @@ For each test case, print the number of triplets that satisfy the given conditio
 ### Sample Input
 
 2
+,
+
 4
 4 5 6 2
+,
+
 4
 1 1 4 5
 
