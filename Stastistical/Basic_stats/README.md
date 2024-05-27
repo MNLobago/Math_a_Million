@@ -34,68 +34,71 @@ You can install the required packages using pip:
 
 `pip install pandas numpy matplotlib seaborn scipy`
 
-Usage
-Prepare Your CSV File:
+## Usage
+### Prepare Your CSV File:
 
 Ensure your CSV file is accessible and contains the data you want to analyze. Note the file path.
 
-Run the Script:
+### Run the Script:
 
 Execute the script in your terminal:
 
 `python3 basic_stats.py`
 
-When prompted, enter the path to your CSV file:
+### When prompted, enter the path to your CSV file:
 
 `Enter the path to your CSV file: /path/to/your/csvfile.csv`
 
-Interpret the Output:
+### Interpret the Output:
 
-The script will display basic statistics, create visualizations, and perform hypothesis tests for each column in the CSV file.
+**The script will display basic statistics, create visualizations, and perform hypothesis tests for each column in the CSV file.**
 
-Script Functionality
-Loading Data:
+## Script Functionality
+### Loading Data:
 The script loads data from a specified CSV file using pandas.
 
-Basic Statistics for Numerical Columns:
-Mean: Average value.
-Median: Middle value.
-Mode: Most frequent value.
-Variance: Measure of data dispersion.
-Standard Deviation: Measure of data spread.
-Basic Statistics for Categorical Columns:
-Mode: Most frequent category.
+### Basic Statistics for Numerical Columns:
+- Mean: Average value.
+- Median: Middle value.
+- Mode: Most frequent value.
+- Variance: Measure of data dispersion.
+- Standard Deviation: Measure of data spread.
+
+### Basic Statistics for Categorical Columns:
+- Mode: Most frequent category.
 Frequency Distribution: Count of each category.
-Visualizations:
-Histogram: Distribution of numerical data.
-Box Plot: Summary of numerical data distribution.
-Bar Plot: Frequency distribution of categorical data.
-Hypothesis Tests:
-T-Test for Numerical Columns: Compares the column mean to a population mean.
-Chi-Square Test for Categorical Columns: Tests the independence of categorical variables.
-Example Output:
+**Visualizations:**
+- Histogram: Distribution of numerical data.
+- Box Plot: Summary of numerical data distribution.
+- Bar Plot: Frequency distribution of categorical data.
+**Hypothesis Tests:**
+- T-Test for Numerical Columns: Compares the column mean to a population mean.
+- Chi-Square Test for Categorical Columns: Tests the independence of categorical variables.
+### Example Output:
 
 
-Basic Statistics for trans:
-  Mode: Automatic (S8)
-  Frequency: {'Automatic (S8)': 814, 'Automatic (S6)': 739, ...}
-  
-Basic Statistics for cylinders:
-  Mean: 5.468
-  Median: 5.0
-  Mode: 4
-  Variance: 3.527
-  Std_dev: 1.878
+## Basic Statistics for trans:
 
-  T-Test (population mean = 0):
-    T-statistic: 116.847, P-value: 0.000
+- Mode: Automatic (S8)
+- Frequency: {'Automatic (S8)': 814, 'Automatic (S6)': 739, ...}
+## Basic Statistics for cylinders:
 
-Error Handling:
-The script includes basic error handling for:
+- Mean: 5.468
+- Median: 5.0
+- Mode: 4
+- Variance: 3.527
+- Std_dev: 1.878
+## T-Test (population mean = 0):
 
-File not found errors.
-Incorrect data types.
-Missing values.
+- T-statistic: 116.847
+- P-value: 0.000
+
+## Error Handling:
+### The script includes basic error handling for:
+
+- File not found errors.
+- Incorrect data types.
+- Missing values.
 
 
 
