@@ -1,13 +1,13 @@
 # Differential Equations Playground 🚀
 
-A hands-on collection of notes, code, and visualizations to explore the beauty of differential equations. This project brings together math theory and Python tools to make learning more intuitive and fun.
+Welcome to the **Differential Equations Playground** — a hands-on collection of notes, code, and visualizations that brings differential equations to life using Python. This project merges mathematical theory with coding magic to make learning more intuitive, interactive, and fun.
+
+> 🌱 
 
 ---
 
-## 📂 Structure
+## 📂 Folder Structure
 
 | Folder | Description |
 |--------|-------------|
-| [`Supplement_1`](./Supplement_1) | Visualizer for sine and cosine waves — a foundational concept before diving into solutions of linear ODEs. |
-
----
+| [`Base_lines`](./Base_lines) | 📈 Visualizer for sine and cosine waves, plus Euler’s Method simulation — perfect stepping stones before diving into ODEs. More visual simulations to come! |
