@@ -21,6 +21,6 @@ This module provides a simple visual representation of sine and cosine functions
 python Sine_and_Cosine.py
 ```
 
-![Sine and Cosine Plot](/imgs/sine_cosine_plot.png)
+![Sine and Cosine Plot](./imgs/sine_cosine_plot.png)
 
 
