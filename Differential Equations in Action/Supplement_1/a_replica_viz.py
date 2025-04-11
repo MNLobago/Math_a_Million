@@ -1,4 +1,6 @@
+import matplotlib
 import matplotlib.pyplot as plt
+import numpy
 import functools
 
 # A decorator to automatically display the plot after the function runs
