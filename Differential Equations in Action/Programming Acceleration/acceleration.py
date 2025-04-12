@@ -23,6 +23,7 @@ gravitational_constant = 6.67e-11 # N m2 / kg2
 # returned value should also be a numpy array.
 
 def acceleration(moon_position, spaceship_position):
+    
     r_earth = -spaceship_position
     dist_earth = numpy.linalg.norm(r_earth)
     a_earth = gravitational_constant * earth_mass / dist_earth**3 * r_earth
@@ -30,6 +31,6 @@ def acceleration(moon_position, spaceship_position):
     r_moon = moon_position - spaceship_position
     dist_moon = numpy.linalg.norm(r_moon)
     a_moon = gravitational_constant * moon_mass / dist_moon**3 * r_moon
-    
+
     return a_earth + a_moon
 
